@@ -1,0 +1,30 @@
+{
+  "name": "retailpulse-platform-backend",
+  "version": "1.0.0",
+  "description": "RetailPulse AI Pro - Enterprise SaaS Analytics Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": ["saas", "analytics", "reviews", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "axios": "^1.5.0",
+    "groq-sdk": "^0.3.1",
+    "nodemailer": "^6.9.5",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^13.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
